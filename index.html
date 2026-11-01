@@ -158,6 +158,141 @@ footer{color:#73866d}
 .contact-link{border-color:#d8dca7;color:#f5f5d9;background:#ffffff14}
 @media(max-width:800px){.hero{background-position:center}}
 
+
+/* ZENVIX ODISHA HERITAGE THEME — visual CSS overrides only */
+:root{
+ --ink:#38251d;--navy:#542b20;--blue:#743b2b;--cream:#fff3d9;--paper:#fff9eb;
+ --sand:#e8c78d;--terracotta:#9f3f2d;--saffron:#d69b36;--gold:#d6a94f;
+ --muted:#806957;--line:#d8b978;--green:#315c42
+}
+body{background:#ead7b4;color:#38251d}
+.login-screen{
+ background-color:#5a2e24;
+ background-image:
+ radial-gradient(circle at 50% 24%,#f8d98a 0 5%,#f4d27b55 9%,transparent 24%),
+ linear-gradient(180deg,#6f3d2b 0%,#a65c38 47%,#4b3829 100%);
+}
+.login-screen:before{
+ opacity:.32;background-size:34px 34px;
+ background-image:
+ repeating-linear-gradient(45deg,transparent 0 10px,#f5d28b30 10px 12px,transparent 12px 22px),
+ repeating-linear-gradient(-45deg,transparent 0 10px,#f5d28b25 10px 12px,transparent 12px 22px);
+}
+.login-screen:after{
+ height:290px;opacity:.86;background-size:620px 290px;
+ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 620 290'%3E%3Cg fill='%233d2920'%3E%3Cpath d='M0 258h620v32H0zM40 258V135h34v123zm-18 0 35-46 35 46zm5-46 30-38 30 38zm9-38 21-48 21 48zm74 84V170h25v88zm-14-88 27-33 27 33zm94 88V112h38v146zm-19-146 38-48 38 48zm12-48 26-55 26 55zm69 194V159h31v99zm-15-99 31-40 31 40zm92 99V129h38v129zm-18-129 37-47 37 47zm13-47 24-51 24 51zm80 176V169h28v89zm-14-89 28-36 28 36zm90 89V142h34v116zm-17-116 34-43 34 43z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.login-card{background:rgba(255,247,226,.98);border:3px double #bd8744;border-radius:3px;box-shadow:0 28px 90px #24140fc9}
+.login-card:before{inset:10px;border:1px solid #c99751}
+.login-mark{background:#6b3427;color:#f4d38a;border:5px double #d6ad62;border-radius:3px}
+.login-card h1,.login-card h2{color:#542b20}
+.login-tag{color:#a3472e}
+.login-card input{background:#fffaf0;border:1px solid #d8b978;border-radius:2px}
+.login-card input:focus{border-color:#a3472e;box-shadow:0 0 0 3px #a3472e22}
+.login-card button{background:linear-gradient(100deg,#743426,#b65a32);border-radius:2px;box-shadow:0 7px 16px #6b342738}
+.login-foot{border-color:#e5d1a8}
+#app{
+ background-color:#f4e6c8;
+ background-image:
+ radial-gradient(ellipse at 5% 8%,#d6ae6b55,transparent 27%),
+ radial-gradient(ellipse at 95% 50%,#b96c3b22,transparent 32%),
+ repeating-linear-gradient(0deg,#8e57200a 0 1px,transparent 1px 7px);
+}
+.layout{background:transparent}
+.sidebar{
+ background:
+ linear-gradient(180deg,#4b281f 0%,#703a29 58%,#3c2b20 100%);
+ border-right:7px solid #d4a54f;color:#fff0ce;position:sticky
+}
+.sidebar:before{
+ content:"";position:absolute;inset:0;opacity:.19;pointer-events:none;
+ background-size:44px 44px;
+ background-image:
+ repeating-linear-gradient(45deg,transparent 0 13px,#f0cf8a 13px 15px,transparent 15px 28px),
+ repeating-linear-gradient(-45deg,transparent 0 13px,#f0cf8a 13px 15px,transparent 15px 28px);
+}
+.sidebar:after{
+ content:"";position:absolute;width:255px;height:255px;right:-112px;bottom:45px;border:3px double #e7c47b66;border-radius:50%;
+ box-shadow:0 0 0 12px #e7c47b18,0 0 0 25px #e7c47b12,0 0 0 39px #e7c47b0c;
+}
+.brand-row,.side-label,.side-link,.side-bottom{position:relative;z-index:1}
+.mark{background:#f0d28b;color:#5a3024;border:5px double #9f6335;border-radius:3px}
+.brand{color:#fff0d2}.tag,.side-label{color:#edca82}
+.side-link{color:#ffefd3;border-radius:2px}
+.side-link.active{background:#f0d28b;color:#572d21;border:1px solid #fff0bd;box-shadow:0 5px 14px #1c0e0b55}
+.side-bottom{color:#e7cda6}
+.main{position:relative}
+.main:before{
+ content:"";position:fixed;pointer-events:none;z-index:0;right:25px;bottom:18px;width:250px;height:250px;opacity:.075;
+ background-repeat:no-repeat;background-size:contain;
+ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Cg fill='none' stroke='%237b3b28' stroke-width='5'%3E%3Ccircle cx='150' cy='150' r='125'/%3E%3Ccircle cx='150' cy='150' r='108'/%3E%3Ccircle cx='150' cy='150' r='18'/%3E%3Cpath d='M150 25v107m0 41v102M25 150h107m36 0h107M62 62l76 76m24 24 76 76M238 62l-76 76m-24 24-76 76'/%3E%3C/g%3E%3C/svg%3E");
+}
+.main>*{position:relative;z-index:1}
+.eyebrow{color:#9b432c}
+.logout{border:1px solid #bd9253;background:#fff3d9;color:#673626;border-radius:2px}
+.logout:hover{background:#6b3427;color:#fff0cf}
+.hero{
+ min-height:340px;padding:clamp(30px,4vw,58px);
+ border:5px double #e2bd70;outline:1px solid #6c3c2b;outline-offset:-11px;border-radius:2px;
+ background:
+ radial-gradient(circle at 82% 28%,#f6d78c 0 5%,#f3d17b4f 8%,transparent 20%),
+ linear-gradient(100deg,#4b2921 0%,#783d2b 55%,#a95d35 100%);
+ box-shadow:0 18px 36px #55321e2b;position:relative
+}
+.hero:before{
+ content:"";position:absolute;inset:0;opacity:.24;pointer-events:none;
+ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cg fill='none' stroke='%23f3d38e' stroke-width='2'%3E%3Cpath d='M80 5 92 30 120 20 110 48 140 60 112 78 140 98 110 110 120 140 92 130 80 155 68 130 40 140 50 110 20 98 48 78 20 60 50 48 40 20 68 30z'/%3E%3Ccircle cx='80' cy='80' r='34'/%3E%3Ccircle cx='80' cy='80' r='10'/%3E%3C/g%3E%3C/svg%3E");
+ background-size:160px 160px
+}
+.hero:after{
+ content:"";position:absolute;right:5%;top:12px;width:310px;height:310px;opacity:.55;pointer-events:none;
+ background-repeat:no-repeat;background-size:contain;
+ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 320'%3E%3Cg fill='none' stroke='%23f4d48e' stroke-width='5'%3E%3Ccircle cx='160' cy='160' r='145'/%3E%3Ccircle cx='160' cy='160' r='128'/%3E%3Ccircle cx='160' cy='160' r='20'/%3E%3Cpath d='M160 15v125m0 40v125M15 160h125m40 0h125M57 57l88 88m30 30 88 88M263 57l-88 88m-30 30-88 88'/%3E%3Cpath d='M160 15l-13 20m13-20 13 20M305 160l-20-13m20 13-20 13M160 305l-13-20m13 20 13-20M15 160l20-13m-20 13 20 13'/%3E%3C/g%3E%3C/svg%3E")
+}
+.hero-copy{max-width:650px}
+.hero-kicker{color:#f3d58f}
+.hero h1{color:#fff2d4;text-shadow:0 3px 14px #27140f77}
+.hero p{color:#f3dfbd}
+.hero-mark{width:190px;height:190px;border:5px double #f1d28a;border-radius:50%;background:#f4d48e15;color:#f4d48e;font-size:86px;text-shadow:0 5px 20px #24140f88}
+.stat{border:1px solid #d5b878;border-top:5px solid #a34a30;border-radius:2px;background:linear-gradient(135deg,#fff8e8,#eddbb6);box-shadow:0 7px 19px #6d421b1c}
+.stat:after{content:"✥";color:#a94b3038}
+.stat strong{color:#633324}.stat span{color:#8c6b4a}
+.section-head h2{color:#613324}
+.search{border:1px solid #d5b878;border-radius:2px;background:#fff9eb}
+.search:focus{border-color:#a34a30;box-shadow:0 0 0 3px #a34a301c}
+.filter{border:1px solid #caa96c;border-radius:2px;background:#fff5dd;color:#70442f}
+.filter.active{background:#713a2a;border-color:#713a2a;color:#f6d991}
+#sections>h2{color:#963f2b;border-bottom:2px solid #d8b978}
+.grid{gap:18px}
+.card{
+ border:1px solid #d8bd83;border-bottom:5px solid #a64d32;border-radius:2px;
+ background:linear-gradient(145deg,#fff9e9,#f0dfbd);
+ box-shadow:0 8px 21px #6d421b1b;min-height:230px
+}
+.card:before{
+ content:"";position:absolute;right:12px;top:12px;width:58px;height:58px;opacity:.55;border:1px solid #c79d5b;
+ background:
+ repeating-linear-gradient(45deg,transparent 0 6px,#bd824c 6px 8px,transparent 8px 14px),
+ repeating-linear-gradient(-45deg,transparent 0 6px,#bd824c 6px 8px,transparent 8px 14px);
+}
+.card:hover{border-bottom-color:#693527;box-shadow:0 16px 30px #6d421b32}
+.ico{width:76px;height:76px;font-size:39px;border-radius:4px;background:linear-gradient(145deg,#6a3527,#a45232);border:4px double #e4c47e;box-shadow:0 7px 15px #60332235}
+.card h3{color:#5b3024}.card p{color:#806a55}
+.open{background:#713a2a;border:1px solid #713a2a;border-radius:2px;color:#f8df9e}
+.open:hover{background:#a64d32;border-color:#a64d32;color:#fff}
+.note{border:1px solid #d5b878;border-left:6px solid #a34a30;border-radius:2px;background:#fff5df;color:#785e45}
+.note b{color:#8d3c2a}
+.empty{border:1px dashed #c8a76d;border-radius:2px}
+footer{color:#80664b}
+.social-contact{border:3px double #e2bd70;border-radius:2px;background:linear-gradient(110deg,#4b2921,#783d2b 60%,#9b5736)}
+.social-heading{color:#f6dda0}.social-sub{color:#f1dfc2}
+.social-action{border:1px solid #d7b978;border-radius:2px;background:#fff4dc;color:#613324}
+.social-action .social-icon{border-radius:4px;background:#713a2a;color:#f6d991}
+.social-action.instagram .social-icon{background:linear-gradient(135deg,#803e34,#b65a45,#d6a14e)}
+.contact-link{border:1px solid #e2c17b;border-radius:2px;color:#ffedc7}
+@media(max-width:800px){.hero:after{right:2%;width:210px;height:210px;top:18px;opacity:.27}.hero-mark{width:120px;height:120px;font-size:55px}}
+@media(max-width:520px){.hero:after{width:160px;height:160px;right:-12px;top:12px;opacity:.22}.ico{width:70px;height:70px;font-size:36px}}
+
 </style></head><body>
 <div id="login-screen" class="login-screen"><div class="login-card"><div class="login-mark">Z</div><h1>Zenvix Digital Studio</h1><p class="login-tag">One Place. Every Digital Solution</p><h2>Welcome back.</h2><p class="login-help">Sign in to access your private service dashboard.</p><form id="login-form"><label for="email">Email address</label><input id="email" type="email" autocomplete="username" required placeholder="Enter your owner email"><label for="password">Password</label><input id="password" type="password" autocomplete="current-password" required placeholder="Enter your password"><button id="login-button" type="submit">Access dashboard&nbsp; →</button><p id="login-message" role="status" aria-live="polite"></p></form><p class="login-foot">Private owner access · Registration is disabled</p></div></div>
 <div id="app" hidden><div class="layout"><aside class="sidebar"><div class="brand-row"><div class="mark">Z</div><div><div class="brand">Zenvix Studio</div><div class="tag">DIGITAL ASSISTANCE</div></div></div><div class="side-label">Workspace</div><div class="side-link active"><span>▦</span> Dashboard</div><div class="side-label" style="margin-top:25px">Quick categories</div><div class="side-link"><span>◈</span> Identity services</div><div class="side-link"><span>▣</span> Aadhaar assistance</div><div class="side-link"><span>⌂</span> Government services</div><div class="side-bottom">Independent digital assistance service<br>Berhampur, Odisha</div></aside><main class="main"><div class="topbar"><div><div class="mobile-brand"><div class="mark">Z</div><div class="brand">Zenvix Digital Studio</div></div><div class="eyebrow">OWNER WORKSPACE</div><div class="top-title">Your digital service dashboard</div></div><button id="logout-button" class="logout">↗ &nbsp;Logout</button></div>
